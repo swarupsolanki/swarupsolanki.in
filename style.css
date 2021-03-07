@@ -1159,27 +1159,8 @@ textarea:invalid {
               transform: translateY(-50%);
       z-index: -1;
       margin-top: 75px; }
-      .welcome-area.hero3 .hero-side-img img {
-        max-height: 100%;
-        -webkit-box-shadow: 0 0.25rem 0.25rem 0 rgba(12, 82, 255, 0.172);
-                box-shadow: 0 0.25rem 0.25rem 0 rgba(12, 82, 255, 0.172);
-        border-radius: .5rem; }
-      .welcome-area.hero3 .hero-side-img .second-img {
-        position: absolute;
-        bottom: 40px;
-        left: -40px;
-        border-radius: .5rem;
-        z-index: 1;
-        -webkit-animation: slideAnimation linear 12s infinite;
-                animation: slideAnimation linear 12s infinite; }
-      @media only screen and (max-width: 767px) {
-        .welcome-area.hero3 .hero-side-img {
-          width: 75%;
-          top: auto;
-          -webkit-transform: translateY(0%);
-                  transform: translateY(0%);
-          margin-top: 0;
-          bottom: 10%; } }
+      
+
     @media only screen and (max-width: 767px) {
       .welcome-area.hero3 .welcome-content {
         margin-top: 90px; } }
